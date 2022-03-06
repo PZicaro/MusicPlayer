@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link  rel ="stylesheet" href ="stl.css" >
+    
+</head>
+<body>
+    <img src="https://images.unsplash.com/photo-1510915361894-db8b60106cb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80">
+    <div class="box">
+        <header class="disc-logo">
+            <img class="image-music"src="imagens/haveItAll.jpg">
+        </header>
+        <main class = 'name-music'>
+            <h2 translate="no">Have It All</h2>
+        </main>
+        <footer>
+            <div class="position-bar">
+            <div class="progress-bar">
+                <div class="progress"><div class="point"></div></div>
+              
+            <div class="timer">
+                <p class="now">00:00</p>
+                <p class="end">6:30</p>
+            </div>
+            </div>
+            </div>
+        
+            <div class="player-buttons">
+
+               <button> <ion-icon class="back-button" name="play-skip-back-circle"></ion-icon></button>
+               <button> <ion-icon class = "play-button"name="play-circle"></ion-icon></button>
+               <button> <ion-icon class="pause-button" name="pause-circle"></ion-icon></button>
+                <button> <ion-icon class="next-button"name="play-skip-forward-circle"></ion-icon></button>
+                
+            </div>
+        </footer>
+        <audio id="first-song" src="song/X2Download.com - Have It All (Official Lyric Video) - Brian Johnson _ Have It All (128 kbps).mp3" type="audio/mp3"> 
+
+        </audio>
+        <audio id="second-song"src="song/X2Download.com - Leanna Crawford - Funeral (Official Lyric Video) (128 kbps).mp3" type="audio/mp3"> 
+
+        </audio>
+        <audio  id="third-song"src="song/X2Download.com - Lecrae - Blessings (Video) ft. Ty Dolla $ign (128 kbps).mp367u" type="audio/mp3"> 
+
+        </audio>
+
+
+
+
+
+
+
+
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>

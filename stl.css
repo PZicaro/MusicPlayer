@@ -1,0 +1,186 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+img{
+    position: absolute;
+    width: 120vw;
+    height: 135vh;
+    z-index: 0;
+}
+.box{
+    margin-top: 85px;
+    height: 80vh;
+    width: 25vw;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(136, 136, 136 ), black);
+    z-index: 1;
+}
+.disc-logo{
+    height: 47vh;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+   
+   
+}
+.disc-logo img{
+    border: 3px solid goldenrod;
+    border-radius: 50%;
+    width:12vw ;
+    height: 25vh;
+}
+main{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: goldenrod
+}
+.position-bar{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    
+}
+.progress-bar{
+    height: 6px;
+    border :1px solid goldenrod;
+    width: 20.5vw;
+    border-radius: 5px;
+   
+   
+    
+   
+}
+.progress{
+    width: 0;
+    height: 6px;
+    background-color: goldenrod
+    
+    
+   
+}
+
+.timer{
+    display: flex;
+    justify-content: space-between;
+    color: goldenrod;
+}
+    .player-buttons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .player-buttons ion-icon{
+        height: 40px;
+        width: 40px;
+        color: goldenrod;
+    }
+    button{
+        background-color: transparent;
+        border: none;
+      
+    }
+    .pause-button{
+        display: none;
+        height: 43px;
+        width: 43px;
+    }
+    @media (max-width:730px){
+        .box{
+            margin-top: 85px;
+            height: 700px;
+            width: 100vw;
+            background-image: linear-gradient(rgb(0, 0, 0), rgb(136, 136, 136 ), black);
+            z-index: 1;
+        }
+
+        .disc-logo{
+            width: 450px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: center;
+           
+           
+        }
+        .disc-logo img{
+            border: 3px solid goldenrod;
+            border-radius: 50%;
+            width: 150px ;
+            height: 200px;
+        }
+    }
+
+    .timer{
+        display: flex;
+        justify-content: space-between;
+        color: goldenrod;
+    }
+        .progress-bar{
+           height: 6px;
+            border :1px solid goldenrod;
+            width: 350px;
+            border-radius: 5px;
+           
+        }        
+        .player-buttons ion-icon{
+            height: 50px;
+            width: 50px;
+            color: goldenrod;
+        }
+        @media (max-width:840px){
+            .box{
+                margin-top: 85px;
+                height: 700px;
+                width: 450px;
+                background-image: linear-gradient(rgb(0, 0, 0), rgb(136, 136, 136 ), black);
+                z-index: 1;
+            }
+    
+            .disc-logo{
+                width: 450px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                justify-content: center;
+               
+               
+            }
+            .disc-logo img{
+                border: 3px solid goldenrod;
+                border-radius: 50%;
+                width: 150px ;
+                height: 200px;
+            }
+        }
+    
+        .timer{
+            display: flex;
+            justify-content: space-between;
+            color: goldenrod;
+        }
+            .progress-bar{
+               height: 6px;
+                border :1px solid goldenrod;
+                width: 80vw;
+                border-radius: 5px;
+               
+            }        
+            .player-buttons ion-icon{
+                height: 50px;
+                width: 50px;
+                color: goldenrod;
+            }
+       
